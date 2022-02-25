@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Andres Aldana :)</title>
+    <!--===============================================================================================-->	
+	    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->	
+        <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->	
+        <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+    </head>
+    <body>
+
+        <main id="main-holer">
+            <h1>Login</h1>
+            <form id="login-form">
+                <!-- Usuario -->
+                <input id="username-field" name="username" type="text" placeholder="Nombre del Usuario">
+                <!-- Contraseña -->
+                <input id="password-field" name="password" type="password" placeholder="Password">
+                <!-- Botón Iniciar Sesión -->
+                <input id="login-form-submit" type="submit" value="»">
+            </form>
+        </main>
+    </body>
+     <script>
+        const loginForm = document.getElementById("login-form");
+        const loginButton = document.getElementById("login-form-submit");
+
+        loginButton.addEventListener("click",(e) => {
+            e.preventDefault();
+            const user = loginForm.username.value;
+            const pass = loginForm.password.value;
+
+            if(user === "Aldanovich" && pass === "AndresAldana17.1")
+            {
+                alert("Bienvenido mi rey ♥")
+            }
+            else
+            {
+                alert("Que te pasa viejo, no es el hub ??")
+            }
+            });
+    </script>
+
+        <!--===============================================================================================-->
+	    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/select2/select2.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/daterangepicker/moment.min.js"></script>
+        <script src="vendor/daterangepicker/daterangepicker.js"></script>
+         <!--===============================================================================================-->
+        <script src="vendor/countdowntime/countdowntime.js"></script>
+        <!--===============================================================================================-->
+        <script src="js/main.js"></script>
+    
+        
+</html> 
